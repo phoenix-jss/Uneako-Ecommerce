@@ -86,11 +86,19 @@
               </div>
 
               <div class="container-login100-form-btn">
-                  <button class="btn-danger" onclick="location.href = 'shop.html';">
+                  <button class="btn-danger cancel" onclick="location.href = 'shop.html';">
                     Cancel
                   </button>
                 </div>
 </div>
+
+<hr> OR <hr>
+
+<div class="container-login100-form-btn">
+    <a href="#" class="btn btn-primary btn-block social-btn"><i class="fa fa-facebook pull-left"> </i>  Sign in with <b> Facebook</b></a>
+<a href="#" class="btn btn-danger btn-block social-btn"><i class="fa fa-google pull-left"> </i>  Sign in with <b> Google</b></a>
+</div>
+
             <div>
               <a href="login.html" class="txt1">Already have an account?</a>
             </div>
@@ -124,7 +132,6 @@
               alert("Passwords do not match.");
               return false;
           }else{
-            window.location.href = "shop.html";
           return true;}
       }
   </script>
