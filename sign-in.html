@@ -41,21 +41,21 @@
           </div>
   
           <form class="login100-form validate-form">
-            <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+            <div class="wrap-input100 validate-input m-b-26" data-validate="Email ID is required">
               <span class="label-input100">Email ID</span>
-              <input class="input100" type="email" name="username" placeholder="Enter email id">
+              <input class="input100" type="email" name="username" placeholder="Enter email id" required>
               <span class="focus-input100"></span>
             </div>
   
             <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
               <span class="label-input100">Password</span>
-              <input class="input100" type="password" name="pass" placeholder="Enter password">
+              <input class="input100" type="password" name="pass" placeholder="Enter password" required>
               <span class="focus-input100"></span>
             </div>
   
             <div class="flex-sb-m w-full p-b-30">
               <div class="contact100-form-checkbox">
-                <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" required>
                 <label class="label-checkbox100" for="ckb1">
                   Remember me
                 </label>
@@ -69,8 +69,10 @@
             </div>
 
             <div class="container-login100-form-btn">
-                <a class="login100-form-btn" href="shop.html" role="button">Sign In</a>
-          </div>
+                <button class="login100-form-btn">
+                  Sign Up
+                </button>
+              </div>
 
             <div>
               <a href="login.html" class="txt1">Already have an account?</a>
